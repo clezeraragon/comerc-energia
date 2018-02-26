@@ -16,10 +16,6 @@ Após clonar o projeto devera rodar os seguintes comandos:
 ```sh
 composer install
 ```
-ou
-```sh
-composer update
-```
 Etapa 2:
 Será preciso configurar o banco de dados que fica em um arquivo chamado env-example
 
