@@ -132,7 +132,7 @@
             {{--<div class="pull-right hidden-xs">--}}
                 <div class="row hidden-xs">
                     <div class="col-sm-12">
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <b class="footer-size">Horas</b> <span class="footer-size">{{ComercEnergia\Http\Controllers\API\ApiController::getClimaTempo()['time']}}</span>
 
                         </div>
@@ -148,8 +148,8 @@
                         </div>
                         <div class="col-sm-1">|</div>
                     </div>
-                        <div class="col-sm-2 col-sm-offset-1">
-                       <img src="{{asset('/img/comerc.png')}}" style="width: 50%; height: auto; margin-top: -10px">
+                        <div class="col-sm-1 ">
+                       <img src="{{asset('/img/comerc.png')}}" style="width: 100%; height: auto; margin-top: -10px">
                         </div>
                     </div>
                 </div>
