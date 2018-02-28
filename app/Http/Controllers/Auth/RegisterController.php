@@ -2,7 +2,7 @@
 
 namespace ComercEnergia\Http\Controllers\Auth;
 
-use ComercEnergia\User;
+use ComercEnergia\Models\User;
 use ComercEnergia\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/gestao-numero';
 
     /**
      * Create a new controller instance.
