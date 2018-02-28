@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-sm-1">|</div>
                     </div>
-                        <div class="col-sm-1 ">
+                        <div class="col-xs-1 col-sm-2 col-md-1 ">
                        <img src="{{asset('/img/comerc.png')}}" style="width: 100%; height: auto; margin-top: -10px">
                         </div>
                     </div>
