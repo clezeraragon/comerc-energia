@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        <link href="{{mix('/css/app.css')}}" rel="stylesheet" type="text/css">
         <!-- Styles -->
         <style>
             html, body {
@@ -58,7 +58,9 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
+            .button  {
+                color: #f2fbff !important;
+            }
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -69,7 +71,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/dashboard') }}" class="button btn btn-primary">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
